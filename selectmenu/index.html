@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Drop Down</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="select">
+			<div class="selectField">
+				<p id="selectText">Select Social Media</p>
+				<img src="file:///C:/sublime/selectmenu/icon/drop.png">
+			</div>
+			<ul id="list" class="hide">
+				<li class="options">
+					<img src="file:///C:/sublime/selectmenu/icon/fb.png">
+					<p>Facebook</p>
+				</li>
+				<li class="options">
+					<img src="file:///C:/sublime/selectmenu/icon/wpp.png">
+					<p>Whatsapp</p>
+				</li>
+				<li class="options">
+					<img src="file:///C:/sublime/selectmenu/icon/you.png">
+					<p>YouTube</p>
+				</li>
+				<li class="options">
+					<img src="file:///C:/sublime/selectmenu/icon/129-1297993_free-icons-png-social-media-icons-single.jpg">
+					<p>Twitter</p>
+				</li>
+				<li class="options">
+					<img src="file:///C:/sublime/selectmenu/icon/ins.jpg">
+					<p>Instgram</p>
+				</li>
+				<li class="options">
+					<img src="file:///C:/sublime/selectmenu/icon/pin.png">
+					<p>Pinterest</p>
+				</li>
+				
+			</ul>
+
+      </div>
+</div>
+<script>
+	var selectField =  document.getElementById("selectField");
+	var selectText =  document.getElementById("selectText");
+	var options =  document.getElementsByClassName("options");
+	var list = document.getElementById("list");
+
+     selectField.onclick =  function(){
+     	list.classList.toggle("hide");
+
+     }
+
+
+for(option of options){
+	option.onclick = function(){
+		selectText.innerHTML = this.textContent;
+	  }
+	}
+</script>
+
+
+
+
+</body>
+</html>

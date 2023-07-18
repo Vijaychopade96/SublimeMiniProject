@@ -1,0 +1,67 @@
+
+
+
+body{
+
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(file:///C:/sublime/login%20from/juniperphoton-Km-whjQRN1c-unsplash.jpg) no-repeat;
+	background-size: cover;
+}
+.Login-box{
+
+
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+
+
+
+}
+.Login-box h1{
+	float: left;
+	font-size: 20px;
+	border-bottom: 2px solid #4caf50;
+	margin-bottom: 10px;
+	padding: 2px 0;
+	
+	
+	
+}
+.textbox{
+	width: 10%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid  #4caf50;
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 0 10px ;
+}
+button{
+	width: 5%;
+	background: none;
+	border:2px solid  #4caf50;
+	overflow: hidden;
+	color: whitesmoke;
+
+
+}

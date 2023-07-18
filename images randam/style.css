@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	text-transform: capitalize;
+	font-family: verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+	min-height: 100vh;
+	display: grid;
+	padding-bottom: 60px;
+	place-items: center;
+	background: url(https://source.unsplash.com/random) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container .content{
+	text-align: center;
+
+}
+.container .content h3{
+	font-size: 20px;
+	color: #fff;
+	padding: 5px 0;
+}
+.container .content p{
+	font-size: 25px;
+	color: #fff;
+	padding: 5px 0;
+}
+.container .content button{
+	height: 50px;
+	width: 200px;
+	color: #333;
+	background: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 10px;
+}

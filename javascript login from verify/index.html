@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+</head>
+<style>
+*{
+	background-color: lightpink;
+}
+div{
+	width: 500px;
+	height: 500px;
+	border: 1px solid red;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 120px;
+	background-color: skyblue;
+}
+	</style>
+<body>
+<center><h1>Wel Come To Login Page</h1></center>
+<hr>
+<div>
+	username:<br>
+	<input type="text" name="text" id="username">
+	<br><br>
+		
+		password:<br>
+		<input type="password" name="text" id="password">
+		<br><br><br>
+		<button onclick="login()">submit</button>
+
+
+</div>
+<script type="text/javascript">
+
+	function login()
+	{
+		var uname=document.getElementById('username').value;
+		var pass=document.getElementById('password').value;
+
+		if (uname=="vijay" && pass=="9780")
+		{
+			location.assign("file:///C:/sublime/javascript%20login%20from%20verify/page.html");
+		}
+		else{
+			window.alert("Login failed");
+		}
+	}
+
+</script>
+</body>
+</html>

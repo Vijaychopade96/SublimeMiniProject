@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Roboto", sans-serif;
+	background: #f7f6ff;
+
+}
+h2{
+	margin: 16px;
+
+}
+.container{
+	margin-top: 100px;
+	padding: 32px;
+
+
+
+}
+.select-box{
+	display: flex;
+	width: 400px;
+	
+}
+.select-box .options-container{
+	background: #2f3640;
+	color: #f5f6fa;
+	/* max-height: 0;*/
+	width: 100%;
+	transition: all 0.4s;
+	border-radius: 8px;
+	overflow: hidden;
+	
+}

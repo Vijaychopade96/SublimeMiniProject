@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+
+
+}
+nav{
+	color: black;
+	border: none;
+}
+
+
+
+.change_contact:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color:#00b894; 
+}
+@keyframes changetext{
+	0%{content:"Badam"}
+	20%{content:"Kaju"}
+	35%{content:"Anjer"}
+	60%{content:"Akrod"}
+	80%{content:"Khajur"}
+	100%{content:"ALL"}
+}
+
+section .btnone{
+	background:#fff;
+	color: #000;
+
+}
+.btnone:hover{
+	background: #00b894;
+color: white;
+
+}
+
+
+
+
+section .btntwo{
+background: #00b894;
+color: white;
+}
+
+.btntwo:hover{
+		background:#fff;
+	color: #000;
+}
+

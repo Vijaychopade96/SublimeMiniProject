@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+body{
+	background: url(file:///C:/sublime/my/dark-and-sophisticated-interior-ideas.jpg);
+	position: absolute;
+
+
+}
+.have{
+
+	align-items: center;	
+	color: #f6f6f6;
+}

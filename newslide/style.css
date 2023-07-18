@@ -1,0 +1,20 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+.banner{
+	width:100%;
+	height:100vh;
+	background-image:url(file:///C:/sublime/newslide/background.jpg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.navbar ul li{
+margin:10px  0;
+padding:0;
+text-align:center;
+position:abosulate;
+text-positon:center;
+}
